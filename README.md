@@ -20,7 +20,7 @@ files larger than 5 GB in size.
 This solution is provided as-is with no expressed warranty.
 
 ## Architecture
-![S3 Data Pump Architecture](docs/S3 Data Pump.png)
+![S3 Data Pump Architecture](docs/s3-data-pump-architecture.png)
 
 ## Deployment
 Deployment of the solution uses the AWS CDK.  This enables quick deployments that are reliable and repeatable.
@@ -139,7 +139,7 @@ You can enable a lifecycle policy on the S3 bucket for objects with those tags t
    5. ERROR
    Query against the 'S3DataPumpResultsManifestGSI' index to see the files in each status for the processed manifest file.
 4. Summaries of the processing results can be obtained through CloudWatch Logs Insights.
-   ![CloudWatch Logs Insights](docs/CloudWatch Logs Insights.png)
+   ![CloudWatch Logs Insights](docs/cloudwatch-logs-insights.png)
    Select the log groups corresponding to these components:
    1. Manifest Processor Fargate Task
    2. Restore Event Handler Lambda
