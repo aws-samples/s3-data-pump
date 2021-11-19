@@ -1,0 +1,12 @@
+{
+  "name": "manifest-processor-image",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1027.0",
+    "csv-parser": "^3.0.0",
+    "through2-concurrent": "^2.0.0"
+  }
+}

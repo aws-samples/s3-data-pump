@@ -1,0 +1,41 @@
+{
+  "name": "s3-data-pump",
+  "version": "1.1.0",
+  "license": "Apache2.0",
+  "bin": {
+    "s3-data-pump": "cdk/s3-data-pump-app.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "deploy": "cdk deploy",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "^1.132.0",
+    "@aws-cdk/aws-dynamodb": "^1.132.0",
+    "@aws-cdk/aws-ec2": "^1.132.0",
+    "@aws-cdk/aws-ecs": "^1.132.0",
+    "@aws-cdk/aws-iam": "^1.132.0",
+    "@aws-cdk/aws-lambda": "^1.132.0",
+    "@aws-cdk/aws-lambda-event-sources": "^1.132.0",
+    "@aws-cdk/aws-sqs": "^1.132.0",
+    "@aws-cdk/core": "^1.132.0",
+    "@aws-cdk/custom-resources": "^1.132.0",
+    "@types/jest": "^27.0.2",
+    "@types/node": "^16.11.7",
+    "@types/through2-concurrent": "^2.0.1",
+    "aws-cdk": "^1.132.0",
+    "jest": "^27.3.1",
+    "ts-jest": "^27.0.7",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1027.0",
+    "csv-parser": "^3.0.0",
+    "esbuild": "^0.13.13",
+    "through2-concurrent": "^2.0.0"
+  }
+}

@@ -1,0 +1,3 @@
+source_bucket,source_object_path,source_tags,target_bucket,target_object_path,target_storage_class,target_tags
+sample_bucket_name,test_file.txt,copycomplete=true,sample_target_bucket_name,,,project=12345&organization=neworg
+sample_bucket_name2,test_file2.txt,copycomplete=true,sample_target_bucket_name2,,,project=23456

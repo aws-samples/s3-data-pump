@@ -1,0 +1,19 @@
+{
+  "SourceS3Buckets": [
+  ],
+  "TargetS3Buckets": [
+  ],
+  "QueueVisibilityTimeout": 900,
+  "MaxQueueRetries": 1,
+  "ManifestLambdaTimeout": 30,
+  "ManifestFargateVpcCidr": "10.0.0.0/24",
+  "ManifestFargateCpu": 256,
+  "ManifestFargateMemory": 512,
+  "ManifestFargateParallelTasks": 100,
+  "RestoreEventLambdaTimeout": 30,
+  "CopyLambdaTimeout": 900,
+  "CopyLambdaBatchSize": 10,
+  "CopyLambdaMaxBatchingWindow": 5,
+  "GlacierRestoreTier": "Bulk",
+  "GlacierRestoreDays": 1
+}
