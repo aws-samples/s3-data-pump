@@ -1,7 +1,7 @@
 {
   "name": "s3-data-pump",
   "version": "1.1.0",
-  "license": "Apache2.0",
+  "license": "MIT-0",
   "bin": {
     "s3-data-pump": "cdk/s3-data-pump-app.js"
   },
